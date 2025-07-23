@@ -166,6 +166,17 @@ nav li:last-child {
   right: -100px;
   width: 50%;
 }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spin-image {
+  animation: spin 5s linear infinite;
+}
 
 .certified-section-right {
   margin-left: 60px;
@@ -529,7 +540,9 @@ nav li:last-child {
   .latest-deal {
     margin: 20px;
   }
-
+  .latest-deal-top h2 {
+    font-size: 24px;
+  }
   .latest-deal-top p {
     width: 85%;
     margin: auto;
