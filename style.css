@@ -535,6 +535,9 @@ nav li:last-child {
   .certified-section-right h2 {
     font-size: 24px;
   }
+  .certified-section-right ul {
+    list-style: disc;
+  }
 
   /* latest-deal */
 
